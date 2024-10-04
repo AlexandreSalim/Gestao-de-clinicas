@@ -8,13 +8,15 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { TestesComponent } from './testes/testes.component';
+import { Pagina1Component } from './pagina1/pagina1.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TestesComponent
+    TestesComponent,
+    Pagina1Component
   ],
   imports: [
     BrowserModule,
